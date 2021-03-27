@@ -1,0 +1,411 @@
+--##  SQL Server Report Date - Version 2.0
+Server Name                    Report Date
+------------------------------ --------------------------------------------------
+AWMSSQL\FXAW                   2019-01-22 15:08:02
+
+--##  SQL Server Summary
+KeyName                           KeyVal
+--------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Audit Level                       Both successful and failed logins
+Clustered Status                  Clustered
+Domain Name                       KALDC
+Install Date                      2016-04-11 11:11:31
+Instance Name                     NULL
+IP Address                        10.1.21.77
+Kerberos                          TCP is using Kerberos
+Logical CPU Count                 2
+Machine Name                      AWMSSQL                       
+Max Server Memory(Megabytes)      2147483647
+Min Server Memory(Megabytes)      16        
+Node1 Name                        AWMSPRDAP1
+Node2 Name                        AWMSPRDAP2
+Number of Link Servers            0
+Port Number                       1433
+Production Name                   SQL Server 2012
+Security Mode                     SQL Server Authentication Security Mode
+Service Account name              KALDC.NET\xerox
+SQL Server Bit Level              64bit
+SQL Server Collation Type         Korean_Wansung_CI_AS          
+SQL Server Default Trace Location E:\MSSQL11.FXAW\MSSQL\Log\log.trc
+SQL Server Edition and BIT Level  Standard Edition (64-bit)     
+SQL Server Errorlog Location      E:\MSSQL11.FXAW\MSSQL\Log\
+SQL Server Service Pack           SP1                 
+SQLServerName\InstanceName        AWMSSQL\FXAW
+User Mode                         Multi User
+
+--##  Server Logins
+name                                                                                                                             principal_id sid                                                                                                                                                                          type type_desc                                                    is_disabled create_date             modify_date             default_database_name                                                                                                            default_language_name                                                                                                            credential_id owning_principal_id is_fixed_role
+-------------------------------------------------------------------------------------------------------------------------------- ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---- ------------------------------------------------------------ ----------- ----------------------- ----------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ------------- ------------------- -------------
+##MS_PolicyEventProcessingLogin##                                                                                                266          0x1141F64F591C3444952FAFC83BD98BDB                                                                                                                                           S    SQL_LOGIN                                                    1           2016-04-11 11:12:09.697 2016-04-11 11:12:09.710 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+##MS_PolicyTsqlExecutionLogin##                                                                                                  257          0xFB5428192C68DE479445435923D3CE58                                                                                                                                           S    SQL_LOGIN                                                    1           2012-02-10 21:07:46.637 2016-04-11 11:12:09.713 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+AWBMDBUser                                                                                                                       270          0xA97126BA55C8DB4DBFBC33F7FD98A6EB                                                                                                                                           S    SQL_LOGIN                                                    0           2016-04-11 13:41:18.790 2016-04-11 13:41:18.803 BM_RMGT_DATA                                                                                                                     us_english                                                                                                                       NULL          NULL                0
+AWPMDBUser                                                                                                                       271          0x999A09A03B4C7C4DADF3CE6017C68070                                                                                                                                           S    SQL_LOGIN                                                    0           2016-04-11 15:01:13.850 2017-05-25 12:31:29.217 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+AWSDMDBUser                                                                                                                      269          0x33544ADC59FDAB44B11DA112D57C498B                                                                                                                                           S    SQL_LOGIN                                                    0           2016-04-11 13:41:16.050 2017-05-25 12:31:38.183 SDM_DATA                                                                                                                         us_english                                                                                                                       NULL          NULL                0
+IMDBUser                                                                                                                         268          0xB8515ECF105D6B438E2F0C77633F67F9                                                                                                                                           S    SQL_LOGIN                                                    0           2016-04-11 13:11:02.633 2016-04-11 13:11:04.097 IM_DATA                                                                                                                          us_english                                                                                                                       NULL          NULL                0
+KALDC\dco3user                                                                                                                   273          0x0105000000000005150000002BAD5A9227B7187F27EB7B4CBF1B0000                                                                                                                   U    WINDOWS_LOGIN                                                0           2019-01-02 09:52:33.973 2019-01-02 09:52:34.067 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+KALDC\xerox                                                                                                                      259          0x0105000000000005150000002BAD5A9227B7187F27EB7B4C3E090000                                                                                                                   U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.213 2016-04-11 11:11:31.223 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT AUTHORITY\SYSTEM                                                                                                              264          0x010100000000000512000000                                                                                                                                                   U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.253 2016-04-11 11:11:31.260 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT SERVICE\ClusSvc                                                                                                               263          0x0106000000000005500000006084B9DBDD58FFA7F6A00E57C8F9DC9806ECF314                                                                                                           U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.247 2016-04-11 11:11:31.253 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT SERVICE\MSSQL$FXAW                                                                                                            262          0x0106000000000005500000005953A36723BEBFA31BB07858F4112E6F9A70504A                                                                                                           U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.240 2016-04-11 11:11:31.250 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT SERVICE\SQLAgent$FXAW                                                                                                         265          0x010600000000000550000000A810B32F1EDD737DD40B3AAD27DCC966B1489981                                                                                                           U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.780 2016-04-11 11:11:31.790 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT SERVICE\SQLWriter                                                                                                             260          0x010600000000000550000000732B9753646EF90356745CB675C3AA6CD6B4D28B                                                                                                           U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.227 2016-04-11 11:11:31.237 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+NT SERVICE\Winmgmt                                                                                                               261          0x0106000000000005500000005A048DDFF9C7430AB450D4E7477A2172AB4170F4                                                                                                           U    WINDOWS_LOGIN                                                0           2016-04-11 11:11:31.233 2016-04-11 11:11:31.243 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+sa1                                                                                                                              1            0x01                                                                                                                                                                         S    SQL_LOGIN                                                    0           2003-04-08 09:10:35.460 2017-05-25 13:15:39.847 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+tdidb                                                                                                                            272          0xD300FC27F391CF44A3D5CA8D62477D66                                                                                                                                           S    SQL_LOGIN                                                    0           2018-02-19 14:14:31.180 2018-02-19 14:14:31.247 master                                                                                                                           us_english                                                                                                                       NULL          NULL                0
+
+--##  SysAdmin Members
+Role     Login\[Member Name]
+-------- --------------------------------------------------
+sysadmin KALDC\dco3user
+sysadmin KALDC\xerox
+sysadmin NT SERVICE\MSSQL$FXAW
+sysadmin NT SERVICE\SQLAgent$FXAW
+sysadmin NT SERVICE\SQLWriter
+sysadmin NT SERVICE\Winmgmt
+sysadmin sa1
+sysadmin tdidb
+
+--##  ServerAdmin Members
+Role                 Login\Member Name
+-------------------- --------------------------------------------------
+
+--##  Configuration setting
+Configuration Setting               Value in Use
+----------------------------------- --------------------
+recovery interval (min)             0                   
+allow updates                       0                   
+user connections                    0                   
+locks                               0                   
+open objects                        0                   
+fill factor (%)                     0                   
+disallow results from triggers      0                   
+nested triggers                     1                   
+server trigger recursion            1                   
+remote access                       1                   
+default language                    0                   
+cross db ownership chaining         0                   
+max worker threads                  0                   
+network packet size (B)             4096                
+show advanced options               0                   
+remote proc trans                   0                   
+c2 audit mode                       0                   
+default full-text language          1033                
+two digit year cutoff               2049                
+index create memory (KB)            0                   
+priority boost                      0                   
+remote login timeout (s)            10                  
+remote query timeout (s)            600                 
+cursor threshold                    -1                  
+set working set size                0                   
+user options                        0                   
+affinity mask                       0                   
+max text repl size (B)              65536               
+media retention                     0                   
+cost threshold for parallelism      5                   
+max degree of parallelism           0                   
+min memory per query (KB)           1024                
+query wait (s)                      -1                  
+min server memory (MB)              16                  
+max server memory (MB)              2147483647          
+query governor cost limit           0                   
+lightweight pooling                 0                   
+scan for startup procs              0                   
+affinity64 mask                     0                   
+affinity I/O mask                   0                   
+affinity64 I/O mask                 0                   
+transform noise words               0                   
+precompute rank                     0                   
+PH timeout (s)                      60                  
+clr enabled                         0                   
+max full-text crawl range           4                   
+ft notify bandwidth (min)           0                   
+ft notify bandwidth (max)           100                 
+ft crawl bandwidth (min)            0                   
+ft crawl bandwidth (max)            100                 
+default trace enabled               1                   
+blocked process threshold (s)       0                   
+in-doubt xact resolution            0                   
+remote admin connections            0                   
+backup compression default          0                   
+filestream access level             0                   
+optimize for ad hoc workloads       0                   
+access check cache bucket count     0                   
+access check cache quota            0                   
+Agent XPs                           1                   
+Database Mail XPs                   0                   
+SMO and DMO XPs                     1                   
+Ole Automation Procedures           0                   
+xp_cmdshell                         0                   
+Ad Hoc Distributed Queries          0                   
+Replication XPs                     0                   
+contained database authentication   0                   
+
+--##  Detection of code that automatically executes on startup
+Name                                Type                      Created Date            Modified Date
+----------------------------------- ------------------------- ----------------------- -----------------------
+
+--##  SQL Service Status
+SQL Server\Instance Name       Service Name                                  Service Status  Status Date\Time
+------------------------------ --------------------------------------------- --------------- -----------------------
+FXAW                           MS SQL Server Service                         Running.        2019-01-22 15:08:03.003
+FXAW                           SQL Server Agent Service                      Running.        2019-01-22 15:08:03.050
+FXAW                           SQL Browser Service - Instance Independent    Running.        2019-01-22 15:08:03.057
+FXAW                           Intergration Service - Instance Independent   NOT INSTALLED   2019-01-22 15:08:03.060
+FXAW                           Reporting Service                             NOT INSTALLED   2019-01-22 15:08:03.063
+FXAW                           Analysis Services                             NOT INSTALLED   2019-01-22 15:08:03.070
+FXAW                           Full Text Search Service                      NOT INSTALLED   2019-01-22 15:08:03.077
+
+--##  Location of Database files
+Database ID Database Name                                 Physical Location                                                                                    Type
+----------- --------------------------------------------- ---------------------------------------------------------------------------------------------------- ----------------
+1           master                                        E:\MSSQL11.FXAW\MSSQL\DATA\master.mdf                                                                ROWS
+1           mastlog                                       E:\MSSQL11.FXAW\MSSQL\DATA\mastlog.ldf                                                               LOG
+2           tempdev                                       E:\MSSQL11.FXAW\MSSQL\DATA\tempdb.mdf                                                                ROWS
+2           templog                                       E:\MSSQL11.FXAW\MSSQL\DATA\templog.ldf                                                               LOG
+3           modeldev                                      E:\MSSQL11.FXAW\MSSQL\DATA\model.mdf                                                                 ROWS
+3           modellog                                      E:\MSSQL11.FXAW\MSSQL\DATA\modellog.ldf                                                              LOG
+4           MSDBData                                      E:\MSSQL11.FXAW\MSSQL\DATA\MSDBData.mdf                                                              ROWS
+4           MSDBLog                                       E:\MSSQL11.FXAW\MSSQL\DATA\MSDBLog.ldf                                                               LOG
+5           IM_DATA                                       E:\MSSQL11.FXAW\MSSQL\DATA\IM_DATA.mdf                                                               ROWS
+5           IM_DATALog                                    E:\MSSQL11.FXAW\MSSQL\DATA\IM_DATA.ldf                                                               LOG
+6           IM_PORTAL_DATA                                E:\MSSQL11.FXAW\MSSQL\DATA\IM_PORTAL_DATA.mdf                                                        ROWS
+6           IM_PORTAL_DATALog                             E:\MSSQL11.FXAW\MSSQL\DATA\IM_PORTAL_DATA.ldf                                                        LOG
+7           IM_WEBUI_DATA                                 E:\MSSQL11.FXAW\MSSQL\DATA\IM_WEBUI_DATA.mdf                                                         ROWS
+7           IM_WEBUI_DATALog                              E:\MSSQL11.FXAW\MSSQL\DATA\IM_WEBUI_DATA.ldf                                                         LOG
+8           SDM_DATA                                      E:\MSSQL11.FXAW\MSSQL\DATA\SDM_DATA.mdf                                                              ROWS
+8           SDM_DATALog                                   E:\MSSQL11.FXAW\MSSQL\DATA\SDM_DATA.ldf                                                              LOG
+9           BM_RMGT_DATA                                  E:\MSSQL11.FXAW\MSSQL\DATA\BM_RMGT_DATA.mdf                                                          ROWS
+9           BM_RMGT_DATALog                               E:\MSSQL11.FXAW\MSSQL\DATA\BM_RMGT_DATA.ldf                                                          LOG
+10          BM_PORTAL_DATA                                E:\MSSQL11.FXAW\MSSQL\DATA\BM_PORTAL_DATA.mdf                                                        ROWS
+10          BM_PORTAL_DATALog                             E:\MSSQL11.FXAW\MSSQL\DATA\BM_PORTAL_DATA.ldf                                                        LOG
+11          BM_WEBUI_DATA                                 E:\MSSQL11.FXAW\MSSQL\DATA\BM_WEBUI_DATA.mdf                                                         ROWS
+11          BM_WEBUI_DATALog                              E:\MSSQL11.FXAW\MSSQL\DATA\BM_WEBUI_DATA.ldf                                                         LOG
+12          PM_DATA_01                                    E:\MSSQL11.FXAW\MSSQL\DATA\PM_DATA_01.mdf                                                            ROWS
+12          PM_DATA_01_log                                E:\MSSQL11.FXAW\MSSQL\DATA\PM_DATA_01_log.ldf                                                        LOG
+13          PM_PORTAL_DATA_01                             E:\MSSQL11.FXAW\MSSQL\DATA\PM_PORTAL_DATA_01.mdf                                                     ROWS
+13          PM_PORTAL_DATA_01Log                          E:\MSSQL11.FXAW\MSSQL\DATA\PM_PORTAL_DATA_01.ldf                                                     LOG
+
+--##  permissions of the users for each database
+dbname                                                                                                                           username                                                                                                                         logintype                                                                                                                        create_date             modify_date             Permissions_user
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ----------------------- ----------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BM_PORTAL_DATA                                                                                                                   dbo (AWBMDBUser)                                                                                                                 SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:41:37.580 db_owner
+BM_PORTAL_DATA                                                                                                                   public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+BM_RMGT_DATA                                                                                                                     dbo (AWBMDBUser)                                                                                                                 SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:41:18.797 db_owner
+BM_RMGT_DATA                                                                                                                     public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+BM_WEBUI_DATA                                                                                                                    dbo (AWBMDBUser)                                                                                                                 SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:41:43.683 db_owner
+BM_WEBUI_DATA                                                                                                                    public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+IM_DATA                                                                                                                          dbo (IMDBUser)                                                                                                                   SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:11:13.210 db_owner
+IM_DATA                                                                                                                          public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+IM_PORTAL_DATA                                                                                                                   dbo (IMDBUser)                                                                                                                   SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:11:06.260 db_owner
+IM_PORTAL_DATA                                                                                                                   public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+IM_WEBUI_DATA                                                                                                                    dbo (IMDBUser)                                                                                                                   SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:11:13.030 db_owner
+IM_WEBUI_DATA                                                                                                                    public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+master                                                                                                                           dbo (sa1)                                                                                                                        SQL_USER                                                                                                                         2003-04-08 09:10:19.600 2003-04-08 09:10:19.600 db_owner
+master                                                                                                                           public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:19.630 2009-04-13 12:59:10.310 
+model                                                                                                                            dbo (sa1)                                                                                                                        SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2003-04-08 09:10:42.287 db_owner
+model                                                                                                                            public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+msdb                                                                                                                             DatabaseMailUserRole                                                                                                             DATABASE_ROLE                                                                                                                    2016-04-11 11:12:04.257 2016-04-11 11:12:04.257 
+msdb                                                                                                                             db_ssisadmin                                                                                                                     DATABASE_ROLE                                                                                                                    2012-02-10 21:05:40.257 2012-02-10 21:05:40.257 
+msdb                                                                                                                             db_ssisltduser                                                                                                                   DATABASE_ROLE                                                                                                                    2012-02-10 21:05:40.430 2012-02-10 21:05:40.430 
+msdb                                                                                                                             db_ssisoperator                                                                                                                  DATABASE_ROLE                                                                                                                    2012-02-10 21:05:40.540 2012-02-10 21:05:40.540 
+msdb                                                                                                                             dbo (sa1)                                                                                                                        SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2012-02-10 21:02:17.913 db_owner
+msdb                                                                                                                             dc_admin                                                                                                                         DATABASE_ROLE                                                                                                                    2012-02-10 21:05:49.300 2012-02-10 21:05:49.300 dc_operator
+msdb                                                                                                                             dc_operator                                                                                                                      DATABASE_ROLE                                                                                                                    2012-02-10 21:05:48.693 2012-02-10 21:05:48.693 SQLAgentUserRole,db_ssisltduser,db_ssisoperator
+msdb                                                                                                                             dc_proxy                                                                                                                         DATABASE_ROLE                                                                                                                    2016-04-11 11:12:05.697 2016-04-11 11:12:05.697 db_ssisltduser,db_ssisoperator
+msdb                                                                                                                             MS_DataCollectorInternalUser                                                                                                     SQL_USER                                                                                                                         2012-02-10 21:05:49.960 2012-02-10 21:05:49.960 SQLAgentUserRole,db_ssisoperator,dc_admin
+msdb                                                                                                                             PolicyAdministratorRole                                                                                                          DATABASE_ROLE                                                                                                                    2012-02-10 21:07:43.647 2012-02-10 21:07:43.647 SQLAgentOperatorRole
+msdb                                                                                                                             public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+msdb                                                                                                                             ServerGroupAdministratorRole                                                                                                     DATABASE_ROLE                                                                                                                    2012-02-10 21:07:43.933 2012-02-10 21:07:43.933 ServerGroupReaderRole
+msdb                                                                                                                             ServerGroupReaderRole                                                                                                            DATABASE_ROLE                                                                                                                    2012-02-10 21:07:44.027 2012-02-10 21:07:44.027 
+msdb                                                                                                                             SQLAgentOperatorRole                                                                                                             DATABASE_ROLE                                                                                                                    2012-02-10 21:04:20.540 2012-02-10 21:04:20.540 SQLAgentReaderRole
+msdb                                                                                                                             SQLAgentReaderRole                                                                                                               DATABASE_ROLE                                                                                                                    2012-02-10 21:04:20.540 2012-02-10 21:04:20.540 SQLAgentUserRole
+msdb                                                                                                                             SQLAgentUserRole                                                                                                                 DATABASE_ROLE                                                                                                                    2012-02-10 21:04:20.540 2012-02-10 21:04:20.540 
+msdb                                                                                                                             TargetServersRole                                                                                                                DATABASE_ROLE                                                                                                                    2016-04-11 11:12:03.410 2016-04-11 11:12:03.410 
+msdb                                                                                                                             UtilityCMRReader                                                                                                                 DATABASE_ROLE                                                                                                                    2016-04-11 11:12:10.097 2016-04-11 11:12:10.097 
+msdb                                                                                                                             UtilityIMRReader                                                                                                                 DATABASE_ROLE                                                                                                                    2016-04-11 11:12:10.127 2016-04-11 11:12:10.127 
+msdb                                                                                                                             UtilityIMRWriter                                                                                                                 DATABASE_ROLE                                                                                                                    2016-04-11 11:12:10.110 2016-04-11 11:12:10.110 UtilityIMRReader
+PM_DATA_01                                                                                                                       dbo (AWPMDBUser)                                                                                                                 SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 15:01:13.967 db_owner
+PM_DATA_01                                                                                                                       public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+PM_PORTAL_DATA_01                                                                                                                dbo (AWPMDBUser)                                                                                                                 SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 15:01:16.733 db_owner
+PM_PORTAL_DATA_01                                                                                                                public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+SDM_DATA                                                                                                                         dbo (AWSDMDBUser)                                                                                                                SQL_USER                                                                                                                         2003-04-08 09:10:42.287 2016-04-11 13:41:45.507 db_owner
+SDM_DATA                                                                                                                         public                                                                                                                           DATABASE_ROLE                                                                                                                    2003-04-08 09:10:42.317 2009-04-13 12:59:14.467 
+
+--##  Database Collation type
+Database Name                       Collation Type
+----------------------------------- -----------------------------------
+master                              Korean_Wansung_CI_AS
+tempdb                              Korean_Wansung_CI_AS
+model                               Korean_Wansung_CI_AS
+msdb                                Korean_Wansung_CI_AS
+IM_DATA                             Latin1_General_CI_AS
+IM_PORTAL_DATA                      Latin1_General_CI_AS
+IM_WEBUI_DATA                       Latin1_General_CI_AS
+SDM_DATA                            Latin1_General_CI_AS
+BM_RMGT_DATA                        Latin1_General_CI_AS
+BM_PORTAL_DATA                      Latin1_General_CI_AS
+BM_WEBUI_DATA                       Latin1_General_CI_AS
+PM_DATA_01                          Latin1_General_BIN2
+PM_PORTAL_DATA_01                   Latin1_General_CI_AS
+
+--##  Database Hard Drive Space Available
+Database Name                                 Total disk space (Megabytes)
+--------------------------------------------- ------------------------------
+BM_PORTAL_DATA                                31
+BM_RMGT_DATA                                  35
+BM_WEBUI_DATA                                 35
+IM_DATA                                       6
+IM_PORTAL_DATA                                31
+IM_WEBUI_DATA                                 31
+master                                        6
+model                                         5
+msdb                                          60
+PM_DATA_01                                    112
+PM_PORTAL_DATA_01                             31
+SDM_DATA                                      5
+tempdb                                        8
+
+--##  OS Hard Drive Space Available
+Drive Letter Free Disk Space (Megabytes)
+------------ ---------------------------
+C            30190
+D            44714
+E            47200
+Q            967
+
+--##  Database Information
+Database ID Name                                          Compatibility User Access     Status     Recovery Model
+----------- --------------------------------------------- ------------- --------------- ---------- --------------
+1           master                                        110           MULTI_USER      ONLINE     SIMPLE
+2           tempdb                                        110           MULTI_USER      ONLINE     SIMPLE
+3           model                                         110           MULTI_USER      ONLINE     FULL
+4           msdb                                          110           MULTI_USER      ONLINE     SIMPLE
+5           IM_DATA                                       110           MULTI_USER      ONLINE     SIMPLE
+6           IM_PORTAL_DATA                                110           MULTI_USER      ONLINE     SIMPLE
+7           IM_WEBUI_DATA                                 110           MULTI_USER      ONLINE     SIMPLE
+8           SDM_DATA                                      110           MULTI_USER      ONLINE     SIMPLE
+9           BM_RMGT_DATA                                  110           MULTI_USER      ONLINE     SIMPLE
+10          BM_PORTAL_DATA                                110           MULTI_USER      ONLINE     SIMPLE
+11          BM_WEBUI_DATA                                 110           MULTI_USER      ONLINE     SIMPLE
+12          PM_DATA_01                                    110           MULTI_USER      ONLINE     SIMPLE
+13          PM_PORTAL_DATA_01                             110           MULTI_USER      ONLINE     SIMPLE
+
+--##  Database Backup Information
+Database Name                                 Days Since Backup Date Last Date Backed Up
+--------------------------------------------- ---------------------- -------------------
+BM_PORTAL_DATA                                         9             01/13/2019
+BM_RMGT_DATA                                           9             01/13/2019
+BM_WEBUI_DATA                                          9             01/13/2019
+IM_DATA                                                9             01/13/2019
+IM_PORTAL_DATA                                         9             01/13/2019
+IM_WEBUI_DATA                                          9             01/13/2019
+master                                                 9             01/13/2019
+model                                                  9             01/13/2019
+msdb                                                   9             01/13/2019
+PM_DATA_01                                             9             01/13/2019
+PM_PORTAL_DATA_01                                      9             01/13/2019
+SDM_DATA                                               9             01/13/2019
+
+--##  SQL Job Status
+JobName                                                                                                                          EnableYN
+-------------------------------------------------------------------------------------------------------------------------------- --------
+DBFullBackup.Subplan_1                                                                                                           N
+DBTrLogBackup.Subplan_1                                                                                                          N
+syspolicy_purge_history                                                                                                          Y
+
+--##  SQL Server Agent Job Step Info
+JobID                                JobName                                                                                                                          OriginatingServerName                                                                                                            JobStartStepNo JobStartStepName                                                                                                                 JobDeletionCriterion step_id     step_name                                                                                                                        subsystem                                on_success_action on_fail_step_id database_name                                                                                                                    last_run_date
+------------------------------------ -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------- ----------- -------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------- ----------------- --------------- -------------------------------------------------------------------------------------------------------------------------------- -------------
+ECB225BA-213C-403D-82C1-A2DB7EC02F56 DBFullBackup.Subplan_1                                                                                                           AWMSSQL\FXAW                                                                                                                     1              Subplan_1                                                                                                                        Never                1           Subplan_1                                                                                                                        SSIS                                     1                 0               NULL                                                                                                                             20190113
+D7344938-4618-43D9-8F67-B5D396CDE96E DBTrLogBackup.Subplan_1                                                                                                          AWMSSQL\FXAW                                                                                                                     1              Subplan_1                                                                                                                        Never                1           Subplan_1                                                                                                                        SSIS                                     1                 0               NULL                                                                                                                             20190114
+
+--##  List of SQL Server Agent - Alerts
+id          name                                                                                                                             event_source                                                                                         event_category_id event_id    message_id  severity    enabled delay_between_responses last_occurrence_date last_occurrence_time last_response_date last_response_time notification_message                                                                                                                                                                                                                                             include_event_description database_name                                                                                                                                                                                                                                                    event_description_keyword                                                                            occurrence_count count_reset_date count_reset_time job_id                               has_notification flags       performance_condition                                                                                                                                                                                                                                            category_id
+----------- -------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ----------------- ----------- ----------- ----------- ------- ----------------------- -------------------- -------------------- ------------------ ------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ---------------- ---------------- ---------------- ------------------------------------ ---------------- ----------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------
+
+--##  List of SQL Server Agent - Operators
+name                                                                                                                             email_address                                                                                        enabled
+-------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------
+
+--##  List of SSIS packages in MSDB
+name                                                                                                                             description                                                                                                                                                                                                                                                      createdate
+-------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------
+
+--##  Link Servers
+Name                      Product                   Provider                  Data Source
+------------------------- ------------------------- ------------------------- -------------------------
+
+** No link server connections Detection of ** 
+--##  Script out the Logon Triggers of the server, if any exists
+definition
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--##  REPLICATION - List Publication or Subscription articles
+srvname name name2 dest_table dest_owner
+------- ---- ----- ---------- ----------
+
+--##  SQL Mail Information
+Database Mail Service Status
+----------------------------
+
+--##  Database Mail Service Statu
+principal_id principal_name                      profile_id profile_name                        is_default
+------------ ----------------------------------- ---------- ----------------------------------- ----------
+
+--##  Database Mirroring Status
+Database Name                       Mirroring State
+----------------------------------- --------------------------------------------
+IM_DATA                             Database Mirroring not configured and/or set
+IM_PORTAL_DATA                      Database Mirroring not configured and/or set
+IM_WEBUI_DATA                       Database Mirroring not configured and/or set
+SDM_DATA                            Database Mirroring not configured and/or set
+BM_RMGT_DATA                        Database Mirroring not configured and/or set
+BM_PORTAL_DATA                      Database Mirroring not configured and/or set
+BM_WEBUI_DATA                       Database Mirroring not configured and/or set
+PM_DATA_01                          Database Mirroring not configured and/or set
+PM_PORTAL_DATA_01                   Database Mirroring not configured and/or set
+
+--##  Database Mirroring Database
+Mirror DB_Name                                                                                                                   Mirroring_State                            Mirroring_Role                              Mirror_Safety_Level                         Mirror_Endpoint                                                                                                                  Mirror_ServerName                                                                                                                Witness_Endpoint                                                                                                                 Witness_State                               Failover Timeout in seconds Mirroring_Redo_Queue Mirroring_Redo_Queue_Type
+-------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------ ------------------------------------------- ------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------- --------------------------- -------------------- ------------------------------------------------------------
+
+--##  Database Log Shipping Status
+status is_primary server                                                                                                                           database_name                                                                                                                    time_since_last_backup last_backup_file                                   backup_threshold is_backup_alert_enabled time_since_last_copy last_copied_file                                   time_since_last_restore last_restored_file                                 last_restored_latency restore_threshold is_restore_alert_enabled
+------ ---------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ---------------------- -------------------------------------------------- ---------------- ----------------------- -------------------- -------------------------------------------------- ----------------------- -------------------------------------------------- --------------------- ----------------- ------------------------
+
+--##  Report Server (SSRS) Reports Information
+Role Name User Name Report Name Catalog Type Description
+--------- --------- ----------- ------------ -----------
+
+--##  SQL Server base folder & Port Info
+registry_key                                                                                                                                                                                                                                                     value_name                                                                                                                                                                                                                                                       value_data
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  Enabled                                                                                                                                                                                                                                                          1
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  Active                                                                                                                                                                                                                                                           1
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  TcpPort                                                                                                                                                                                                                                                          1433 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  TcpDynamicPorts                                                                                                                                                                                                                                                  0 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  DisplayName                                                                                                                                                                                                                                                      Specific IP Address 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP1                                                                                                                                                                  IpAddress                                                                                                                                                                                                                                                        10.1.21.74 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  Enabled                                                                                                                                                                                                                                                          1
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  Active                                                                                                                                                                                                                                                           1
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  TcpPort                                                                                                                                                                                                                                                          1433 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  TcpDynamicPorts                                                                                                                                                                                                                                                  0 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  DisplayName                                                                                                                                                                                                                                                      Specific IP Address 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IP2                                                                                                                                                                  IpAddress                                                                                                                                                                                                                                                        10.1.21.77 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IPAll                                                                                                                                                                TcpPort                                                                                                                                                                                                                                                          1433 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IPAll                                                                                                                                                                TcpDynamicPorts                                                                                                                                                                                                                                                  65440 
+HKLM\Software\Microsoft\Microsoft SQL Server\MSSQL11.FXAW\MSSQLServer\SuperSocketNetLib\Tcp\IPAll                                                                                                                                                                DisplayName                                                                                                                                                                                                                                                      Any IP Address 
+
+--##  SQL Server Fulltext Info
+object_id   unique_index_id fulltext_catalog_id is_enabled change_tracking_state change_tracking_state_desc                                   has_crawl_completed crawl_type crawl_type_desc                                              crawl_start_date        crawl_end_date          incremental_timestamp stoplist_id property_list_id data_space_id
+----------- --------------- ------------------- ---------- --------------------- ------------------------------------------------------------ ------------------- ---------- ------------------------------------------------------------ ----------------------- ----------------------- --------------------- ----------- ---------------- -------------
+
+--##  List all System and Mirroring endpoints
+name                                                                                                                             endpoint_id principal_id protocol protocol_desc                                                type type_desc                                                    state state_desc                                                   is_admin_endpoint
+-------------------------------------------------------------------------------------------------------------------------------- ----------- ------------ -------- ------------------------------------------------------------ ---- ------------------------------------------------------------ ----- ------------------------------------------------------------ -----------------
+Dedicated Admin Connection                                                                                                       1           1            2        TCP                                                          2    TSQL                                                         0     STARTED                                                      1
+TSQL Local Machine                                                                                                               2           1            4        SHARED_MEMORY                                                2    TSQL                                                         0     STARTED                                                      0
+TSQL Named Pipes                                                                                                                 3           1            3        NAMED_PIPES                                                  2    TSQL                                                         0     STARTED                                                      0
+TSQL Default TCP                                                                                                                 4           1            2        TCP                                                          2    TSQL                                                         0     STARTED                                                      0
+TSQL Default VIA                                                                                                                 5           1            5        VIA                                                          2    TSQL                                                         0     STARTED                                                      0
+

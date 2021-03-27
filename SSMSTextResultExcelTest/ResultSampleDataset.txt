@@ -1,0 +1,32 @@
+Server Name                    Report Date
+------------------------------ --------------------------------------------------
+AWMSSQL\FXAW                   2019-01-22 15:08:02
+
+KeyName                           KeyVal
+--------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Audit Level                       Both successful and failed logins
+Clustered Status                  Clustered
+Domain Name                       KALDC
+Install Date                      2016-04-11 11:11:31
+Instance Name                     NULL
+IP Address                        10.1.21.77
+Kerberos                          TCP is using Kerberos
+Logical CPU Count                 2
+Machine Name                      AWMSSQL                       
+Max Server Memory(Megabytes)      2147483647
+Min Server Memory(Megabytes)      16        
+Node1 Name                        AWMSPRDAP1
+Node2 Name                        AWMSPRDAP2
+Number of Link Servers            0
+Port Number                       1433
+Production Name                   SQL Server 2012
+Security Mode                     SQL Server Authentication Security Mode
+Service Account name              KALDC.NET\xerox
+SQL Server Bit Level              64bit
+SQL Server Collation Type         Korean_Wansung_CI_AS          
+SQL Server Default Trace Location E:\MSSQL11.FXAW\MSSQL\Log\log.trc
+SQL Server Edition and BIT Level  Standard Edition (64-bit)     
+SQL Server Errorlog Location      E:\MSSQL11.FXAW\MSSQL\Log\
+SQL Server Service Pack           SP1                 
+SQLServerName\InstanceName        AWMSSQL\FXAW
+User Mode                         Multi User

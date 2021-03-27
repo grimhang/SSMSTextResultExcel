@@ -1,0 +1,9 @@
+SQL Server\Instance Name       Service Name                                  Service Status  Status Date\Time
+------------------------------ --------------------------------------------- --------------- -----------------------
+FXAW                           MS SQL Server Service                         Running.        2019-01-22 15:08:03.003
+FXAW                           SQL Server Agent Service                      Running.        2019-01-22 15:08:03.050
+FXAW                           SQL Browser Service - Instance Independent    Running.        2019-01-22 15:08:03.057
+FXAW                           Intergration Service - Instance Independent   NOT INSTALLED   2019-01-22 15:08:03.060
+FXAW                           Reporting Service                             NOT INSTALLED   2019-01-22 15:08:03.063
+FXAW                           Analysis Services                             NOT INSTALLED   2019-01-22 15:08:03.070
+FXAW                           Full Text Search Service                      NOT INSTALLED   2019-01-22 15:08:03.077
